@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Guimarães</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&family=Montaser:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .bg-full {
+            background-image: url('img/bg-full.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .content {
+            text-align: left;
+            color: black;
+            margin-bottom: 20px;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+        .content p {
+            margin: 0;
+            line-height: 1.2;
+        }
+        .content .headline {
+            font-family: 'Montaser', sans-serif;
+            font-size: 46px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .content .subtext {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 18px;
+            color: black;
+            margin-bottom: 5px;
+        }
+        .content .button-container {
+            display: flex;
+            align-items: center;
+            margin-top: 2px;
+            flex-wrap: wrap;
+        }
+        .content .button-container p {
+            margin-right: 30px;
+            flex: 1 1 auto;
+        }
+        .content .button-container a {
+            background-color: #545454;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            width: 130px;
+            height: 20px;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icons {
+            margin-top: 90px; /* Increased by 30px */
+            display: flex;
+            justify-content: center;
+        }
+        .icons a {
+            margin: 0 10px;
+        }
+        .icons img {
+            width: 35px;
+            height: 35px;
+        }
+        a {
+            cursor: pointer;
+        }
+        a:hover, a:focus, a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+        @media (max-width: 768px) {
+            .content .headline {
+                font-size: 32px;
+            }
+            .content .subtext {
+                font-size: 12px;
+            }
+            .content .button-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .content .button-container p {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            .content .button-container a {
+                width: 80%;
+                text-align: center;
+            }
+            .icons {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-full">
+        <div class="content">
+            <p class="headline">Em breve!</p>
+            <p class="subtext">Estamos melhorando nosso site!</p>
+            <div class="button-container">
+                <p class="subtext">Clique no botão ao lado para receber novidades.</p>
+                <a href="mailto:contato@fernandaguimaraes.com.br" target="_blank">ME AVISE</a>
+            </div>
+            <div class="icons">
+                <a href="http://www.instagram.com/afernandaguima" target="_blank">
+                    <img src="img/icons8-instagram-48.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/c/fernandaguimaraesAL/videos" target="_blank">
+                    <img src="img/icons8-youtube-48.png" alt="YouTube">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
